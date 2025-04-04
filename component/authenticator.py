@@ -119,9 +119,8 @@ def handle_authentication(st):
         <div class="kerry-login-header">
             {get_kerry_logo_html()}
             <h2 class="kerry-login-title">Kerry Logistics</h2>
-            <p class="kerry-login-subtitle">Advanced Analytics Platform</p>
-            <div class="fleet-tracker-badge">Fleet Intelligence Tracker</div>
-        </div>
+            <p class="kerry-login-subtitle">Fleet Intelligence Tracker</p>
+
         """, unsafe_allow_html=True)
         
         # Tabs for different authentication options
@@ -137,12 +136,7 @@ def handle_authentication(st):
             elif st.session_state['authentication_status'] is False:
                 st.error('Username/password is incorrect')
             
-            # Environmental message for login tab
-            st.markdown("""
-            <div style="margin-top: 2rem; text-align: center; opacity: 0.8;">
-                <p style="font-size: 0.9rem;">Intelligent fleet monitoring and management</p>
-            </div>
-            """, unsafe_allow_html=True)
+
 
         with signup_tab:
             st.markdown("""
@@ -197,7 +191,7 @@ def handle_authentication(st):
         # Footer with contact info
         st.markdown(f"""
         <div class="kerry-login-footer">
-            <div class="copyright">Kerry Logistics Network Limited © {st.session_state.get('current_year', 2023)}</div>
+            <div class="copyright">The Hong Kong University of Science and Technology © {st.session_state.get('current_year', 2025)}</div>
             <div>Smart logistics for a connected future</div>
         </div>
         """, unsafe_allow_html=True)
