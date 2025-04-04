@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#FF6600"  # Kerry Logistics orange
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[server]
+headless = true
+enableCORS = false 
