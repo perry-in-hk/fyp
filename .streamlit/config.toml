@@ -1,8 +1,9 @@
 [theme]
 primaryColor = "#FF6600"  # Kerry Logistics orange
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
+backgroundColor = "#0A0F16"  # Dark background
+secondaryBackgroundColor = "#121920"  # Dark secondary background
+textColor = "#E0E7FF"  # Light text for dark mode
+base = "dark"  # Force dark theme for all users
 
 [server]
 headless = true
