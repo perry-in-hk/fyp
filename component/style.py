@@ -635,7 +635,7 @@ def show_kerry_header():
     """Display Kerry Logistics header with logo"""
     header_html = """
     <div class="page-title">
-        <h1>Kerry Logistics Carbon Emission Tracker</h1>
+        <h1>Kerry Logistics Fleet Intelligence Tracker</h1>
     </div>
     """
     st.markdown(header_html, unsafe_allow_html=True)

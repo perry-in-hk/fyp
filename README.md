@@ -1,6 +1,6 @@
-# Kerry Logistics Display App
+# Kerry Logistics Fleet Intelligence Tracker
 
-A Streamlit-based application for visualizing and analyzing GPS routes data.
+A Streamlit-based application for monitoring and managing fleet logistics data with intelligent analytics.
 
 ## Deployment Guide for Streamlit Share
 
