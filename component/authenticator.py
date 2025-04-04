@@ -118,8 +118,8 @@ def handle_authentication(st):
         st.markdown(f"""
         <div class="kerry-login-header">
             {get_kerry_logo_html()}
-            <h2 class="kerry-login-title">Fleet Intelligence Tracker</h2>
-            <p class="kerry-login-subtitle">Kerry Logistics GPS Analytics</p>
+            <h2 class="kerry-login-title">Kerry Logistics</h2>
+            <p class="kerry-login-subtitle">Fleet Intelligence Tracker</p>
 
         """, unsafe_allow_html=True)
         
