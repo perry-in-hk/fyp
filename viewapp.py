@@ -21,6 +21,9 @@ import numpy as np
 from sklearn.ensemble import IsolationForest
 import json
 
+# Set page title and favicon
+st.set_page_config(page_title="Fleet Intelligence Tracker", page_icon="🚚", layout="wide")
+
 # Apply custom styling
 apply_custom_styles()
 

@@ -7,4 +7,11 @@ base = "dark"  # Force dark theme for all users
 
 [server]
 headless = true
-enableCORS = false 
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+pageTitle = "Fleet Intelligence Tracker"
+favicon = "🚚" 
